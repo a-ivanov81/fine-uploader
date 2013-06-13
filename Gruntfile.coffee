@@ -327,6 +327,7 @@ module.exports = (grunt) ->
             all: 
                 options:
                     urls: ['http://localhost:9001/index.html']
+                    inject: './test/static/bridge.js'
         
         # Server to run tests against and host static files
         # ----------
